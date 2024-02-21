@@ -132,25 +132,32 @@ h3 {
 
 .balihoIc {
   border: 1px solid #00ffff;
+  max-width: 450px;
+  /* height: 100px; */
   border-radius: 5px;
   background-color: #00ffff;
   box-shadow: 0 0 50px #00ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .balihoIc h2 {
+  text-align: center;
   margin: 5px 5px 5px 5px;
+  font-size: 2.5rem;
   color: rgb(0, 200, 255);
   /* font-size: 2.5rem; */
 }
 
-.balihoIc-hole {
+/* .balihoIc-hole {
   margin: 25px 0 0 0;
-  width: 100px;
+  width: 200px;
   height: 0;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
   border-bottom: 10px solid white;
-}
+} */
 
 @media (min-width: 768px) {
   .logo {
@@ -158,18 +165,22 @@ h3 {
     height: 225px;
   }
 
-  @media (min-width: 1024px) {
-    .head {
-      width: 95%;
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: row-reverse;
-      margin: 200px 0 150px 0;
-    }
+  .balihoIc h2 {
+    font-size: 3.5rem;
+  }
+}
 
-    .logo-desc {
-      align-items: start;
-    }
+@media (min-width: 1024px) {
+  .head {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    margin: 200px 0 150px 0;
+  }
+
+  .logo-desc {
+    align-items: start;
   }
 }
 
