@@ -1,4 +1,4 @@
-inter
+kanit
 poppins
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,3 +8,5 @@ blue1 82,82,212
 blue2 	139,139,226
 red 	235,22,54
 black 	36,33,48 
+
+link:https://icpp-program.github.io/redekto/

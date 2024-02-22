@@ -1,8 +1,7 @@
 export const crueData = [
   {
     nama: "M.Yazem Agva Roiz",
-    motto:
-      "bulan tidak harus purnama nan terang untuk dicintai,seperti itu juga dirimu.",
+    motto: "kita bernapas,pertanda kita hidup",
     skill: [
       "HTML",
       "CSS",
